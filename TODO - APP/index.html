@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Todo App</h1>
+    <div style="text-align: center;">
+        <input class="input" type="text" id="inp" placeholder="Add your new todo">
+        <button onclick="addTodo()" class="add"><i class="fa-solid fa-plus add-icon"></i></button>
+
+    </div>
+    <ul class="ul" id="list">
+    </ul>
+    <button id="clear"  onclick="deleteAll()" class="delete-all">Delete All</button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

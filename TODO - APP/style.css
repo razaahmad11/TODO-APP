@@ -1,0 +1,93 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+.heading {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.input {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 85%;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.add {
+    height: 53px;
+    width: 50px;
+    padding-top: 2px;
+    background-color: #8E4CE8;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.list-div {
+    display: flex;
+
+    width: 97%;
+}
+
+.delete-all {
+    height: 53px;
+    width: 100px;
+    padding-top: 8px;
+    background-color:#ff0000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+.ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.list {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+    margin-left: 60px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+}
+
+.edit {
+    font-size: 30px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.delete {
+    border: none;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #ff0000;
+    background-color: #000000;
+}
